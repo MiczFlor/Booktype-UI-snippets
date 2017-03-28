@@ -4,17 +4,21 @@ html {
 }
 body {
 	color:#333;
-	background:#ebebeb;
+	background:#body-bg-color;
 	font-size:13px;
 	line-height:145%;
 	padding:0;
 	margin:0;
 	height:99.9%; /* to avoid flickering in chrome because of bs tooltips*/
 }
+/* no outline for any links / buttons */
+a, a:hover, a:focus, a:visited {
+    outline: 0;
+}
 /* font family for all elements */
 body,
 h1,h2,h3,h4,h5,h6,
-p, li, td
+p, li, td 
 {
 	font-family:'Lato','Open Sans',Arial,Helvetica,sans-serif;
 }
@@ -161,13 +165,13 @@ a:focus,a:hover {
 	padding-top:9px
 }
 .navigation-bar {
-	background:#333;
-	background:-moz-linear-gradient(top, #333 0, #222 100%);
-	background:-webkit-gradient(linear, left top, left bottom, color-stop(0, #333), color-stop(100%, #222));
-	background:-webkit-linear-gradient(top, #333 0, #222 100%);
-	background:-o-linear-gradient(top, #333 0, #222 100%);
-	background:-ms-linear-gradient(top, #333 0, #222 100%);
-	background:linear-gradient(to bottom, #333 0, #222 100%);
+	background:#nav-top-background-lighter;
+	background:-moz-linear-gradient(top, #nav-top-background-lighter 0, #nav-top-background-darker 100%);
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0, #nav-top-background-lighter), color-stop(100%, #nav-top-background-darker));
+	background:-webkit-linear-gradient(top, #nav-top-background-lighter 0, #nav-top-background-darker 100%);
+	background:-o-linear-gradient(top, #nav-top-background-lighter 0, #nav-top-background-darker 100%);
+	background:-ms-linear-gradient(top, #nav-top-background-lighter 0, #nav-top-background-darker 100%);
+	background:linear-gradient(to bottom, #nav-top-background-lighter 0, #nav-top-background-darker 100%);
 	color:#ebebeb;
 	height:40px;
 	padding:0 20px 0 0;
@@ -187,8 +191,8 @@ a:focus,a:hover {
 	right:20px
 }
 .bookbar {
-	background:rgba(223,222,224,0.9);
-	border-bottom:1px solid #bfbfbf;
+	background:#bookbar-bg-color;
+	border-bottom:#bookbar-border-bottom-pxpx solid #bookbar-border-bottom-color;
 	height:60px;
 	padding:0 0 0 20px;
 	-webkit-box-sizing:border-box;
@@ -315,9 +319,9 @@ a:focus,a:hover {
 	margin:0 60px
 }
 .contentHeader {
-	background:rgba(245,245,245,0.9);
+	background:#editor-formattingbar-bg-color;
 	height:55px;
-	border-bottom:1px solid #e0e0e0;
+	border-bottom:#editor-formattingbar-border-bottom-pxpx solid #editor-formattingbar-border-bottom-color;
 	padding:8px 20px;
 	-webkit-box-sizing:border-box;
 	-moz-box-sizing:border-box;
@@ -537,7 +541,7 @@ a:focus,a:hover {
 	top:155px;
 	bottom:0;
 	z-index:20;
-	background:#a1a1a1;
+	background:#editor-tab-bg-color;
 	overflow:hidden;
 	-webkit-box-shadow:inset 8px 0 6px -8px rgba(0,0,0,0.8);
 	-moz-box-shadow:inset 8px 0 6px -8px rgba(0,0,0,0.8);

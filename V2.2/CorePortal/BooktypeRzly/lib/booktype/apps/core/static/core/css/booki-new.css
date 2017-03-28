@@ -4,7 +4,7 @@ html {
 }
 body {
 	color:#333;
-	background:#body-bg-color;
+	background:#f5f5f5;
 	font-size:13px;
 	line-height:145%;
 	padding:0;
@@ -74,7 +74,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 h1 {
 	font-size:24px;
-	color:#text-general
+	color:#ea5244
 }
 h2 {
 	font-size:21px
@@ -111,11 +111,11 @@ p.quote:before {
 	bottom:0
 }
 a {
-	color:#text-general;
+	color:#ea5244;
 	text-decoration:none
 }
 a:focus,a:hover {
-	color:#text-general;
+	color:#ea5244;
 	text-decoration:underline
 }
 .float-right {
@@ -151,11 +151,11 @@ a:focus,a:hover {
 }
 .content h2 {
 	font-size:1.5em;
-	color:#text-general
+	color:#ea5244
 }
 .content h3 {
 	font-size:1.3em;
-	color:#text-general;
+	color:#ea5244;
 	line-height:20px
 }
 .content.small-padding {
@@ -165,13 +165,13 @@ a:focus,a:hover {
 	padding-top:9px
 }
 .navigation-bar {
-	background:#nav-top-background-lighter;
-	background:-moz-linear-gradient(top, #nav-top-background-lighter 0, #nav-top-background-darker 100%);
-	background:-webkit-gradient(linear, left top, left bottom, color-stop(0, #nav-top-background-lighter), color-stop(100%, #nav-top-background-darker));
-	background:-webkit-linear-gradient(top, #nav-top-background-lighter 0, #nav-top-background-darker 100%);
-	background:-o-linear-gradient(top, #nav-top-background-lighter 0, #nav-top-background-darker 100%);
-	background:-ms-linear-gradient(top, #nav-top-background-lighter 0, #nav-top-background-darker 100%);
-	background:linear-gradient(to bottom, #nav-top-background-lighter 0, #nav-top-background-darker 100%);
+	background:#272b35;
+	background:-moz-linear-gradient(top, #272b35 0, #272b35 100%);
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0, #272b35), color-stop(100%, #272b35));
+	background:-webkit-linear-gradient(top, #272b35 0, #272b35 100%);
+	background:-o-linear-gradient(top, #272b35 0, #272b35 100%);
+	background:-ms-linear-gradient(top, #272b35 0, #272b35 100%);
+	background:linear-gradient(to bottom, #272b35 0, #272b35 100%);
 	color:#ebebeb;
 	height:40px;
 	padding:0 20px 0 0;
@@ -191,8 +191,8 @@ a:focus,a:hover {
 	right:20px
 }
 .bookbar {
-	background:#bookbar-bg-color;
-	border-bottom:#bookbar-border-bottom-pxpx solid #bookbar-border-bottom-color;
+	background:rgba(223,222,224,0.9);
+	border-bottom:1px solid #bfbfbf;
 	height:60px;
 	padding:0 0 0 20px;
 	-webkit-box-sizing:border-box;
@@ -297,7 +297,7 @@ a:focus,a:hover {
 	background-position:-40px -480px
 }
 .bookbar.flat .btn-primary {
-	background-color:#button-background-lighter;
+	background-color:#10cfbd;
 	padding:29px 38px 30px 22px;
 	color:#fff;
 	text-transform:uppercase;
@@ -319,9 +319,9 @@ a:focus,a:hover {
 	margin:0 60px
 }
 .contentHeader {
-	background:#editor-formattingbar-bg-color;
+	background:rgba(255,255,255,0.9);
 	height:55px;
-	border-bottom:#editor-formattingbar-border-bottom-pxpx solid #editor-formattingbar-border-bottom-color;
+	border-bottom:1px solid #e0e0e0;
 	padding:8px 20px;
 	-webkit-box-sizing:border-box;
 	-moz-box-sizing:border-box;
@@ -541,7 +541,7 @@ a:focus,a:hover {
 	top:155px;
 	bottom:0;
 	z-index:20;
-	background:#editor-tab-bg-color;
+	background:#3B4752;
 	overflow:hidden;
 	-webkit-box-shadow:inset 8px 0 6px -8px rgba(0,0,0,0.8);
 	-moz-box-shadow:inset 8px 0 6px -8px rgba(0,0,0,0.8);
@@ -903,7 +903,7 @@ a:focus,a:hover {
 	-webkit-box-shadow:0 0 4px #ddd;
 	-moz-box-shadow:0 0 4px #ddd;
 	box-shadow:0 0 4px #ddd;
-	border:2px solid #text-general !important
+	border:2px solid #ea5244 !important
 }
 .tabpane .tab-content.chat.typing-active .notification-list-box {
 	bottom:160px
@@ -1296,7 +1296,7 @@ li.mjs-nestedSortable-collapsed.mjs-nestedSortable-hovering div {
 }
 .sortable li div .toc-chapter-detail .status {
 	float:right;
-	background:#button-alt-background
+	background:#146eb4
 }
 
 .sortable li div .toc-chapter-detail .icons {
@@ -1597,7 +1597,7 @@ li.mjs-nestedSortable-collapsed.mjs-nestedSortable-hovering div {
 	box-shadow:0 0 3px #a0a0a0
 }
 .uploads-grid li.active {
-	background:#button-background-lighter;
+	background:#10cfbd;
 	border-color:#55398a;
 	cursor:pointer;
 	-webkit-box-shadow:0 0 3px #a0a0a0;
@@ -1745,7 +1745,7 @@ li.mjs-nestedSortable-collapsed.mjs-nestedSortable-hovering div {
 	margin:0 320px 0 0
 }
 .image-dropdown-button {
-	background-color:#button-background-lighter;
+	background-color:#10cfbd;
 	border-style:solid;
 	border-color:#fff;
 	border-width:2px 2px 0 0;
@@ -2676,7 +2676,7 @@ h2 .btn-toolbar+.view_all {
 	right:100px
 }
 .profile-box {
-	background-color:#button-background-lighter;
+	background-color:#10cfbd;
 	min-height:242px !important
 }
 .profile-box h2 {
@@ -2734,7 +2734,7 @@ dd input,dt input,dd textarea,dt textarea {
 	background-color:#fff !important
 }
 .box.purple {
-	background-color:#button-background-lighter !important
+	background-color:#10cfbd !important
 }
 .box.black {
 	background-color:#464646 !important
@@ -2798,7 +2798,7 @@ dd input,dt input,dd textarea,dt textarea {
 	clear:both
 }
 .status {
-	background:#button-alt-background;
+	background:#146eb4;
 	padding:0 6px 1px 6px;
 	margin:0 5px;
 	-webkit-border-radius:2px;
@@ -2808,7 +2808,7 @@ dd input,dt input,dd textarea,dt textarea {
 .draft-stat {
 	color:#fff;
 	font-size:18px;
-	background:#button-alt-background;
+	background:#146eb4;
 	padding:2px 10px 2px 10px;
 	margin:0 15px 0 0;
 	-webkit-border-radius:2px;
@@ -3023,7 +3023,7 @@ span.draft-stat:hover {
 }
 .selected-chapter {
 	background-color:#f5f5f5;
-	border-left:4px solid #text-general
+	border-left:4px solid #ea5244
 }
 .table_of_contents {
 	height:100%;
@@ -3157,10 +3157,10 @@ textarea.form-control {
 	border-left:4px solid transparent
 }
 #settings.nav-tabs>li.active>a,#settings.nav-tabs>li.active>a:hover,#settings.nav-tabs>li.active>a:focus {
-	color:#text-general;
+	color:#ea5244;
 	font-weight:800;
 	border:none;
-	border-left:4px solid #text-general;
+	border-left:4px solid #ea5244;
 	border-bottom-color:transparent;
 	border-radius:0
 }
@@ -3218,7 +3218,7 @@ textarea.form-control {
 	font-weight:bold
 }
 .wizard>.steps .current a .number {
-	background:#button-background-lighter;
+	background:#10cfbd;
 	color:#fff;
 	height:45px
 }
@@ -3249,7 +3249,7 @@ textarea.form-control {
 	cursor:default
 }
 .wizard>.steps .current a,.wizard>.steps .current a:hover,.wizard>.steps .current a:active {
-	color:#button-background-lighter;
+	color:#10cfbd;
 	cursor:default;
 	font-weight:bold
 }
@@ -3586,7 +3586,7 @@ textarea.form-control {
 	font-family:Arial,sans-serif;
 	font-style:italic;
 	line-height:20px;
-	background:#button-background-lighter;
+	background:#10cfbd;
 	padding:15px 20px;
 	color:#fff;
 	margin:-20px -20px 20px -20px
@@ -3861,11 +3861,11 @@ footer {
 	line-height:140%
 }
 .publish_history .export-item .export-name:hover {
-	border-bottom:1px dotted #button-background-lighter;
+	border-bottom:1px dotted #10cfbd;
 	margin-bottom:3px
 }
 .publish_history .export-item .export-name:focus {
-	border-bottom:1px dotted #button-background-lighter;
+	border-bottom:1px dotted #10cfbd;
 	margin-bottom:3px;
 	outline:0
 }

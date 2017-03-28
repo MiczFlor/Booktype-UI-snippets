@@ -14,31 +14,31 @@
 #commands we used to create the orange theme of the current
 #Booktype theme.
 
+# link and icon colour: #10cfbd
+# primary button: #10cfbd
 
 # Body general
 #
-sed -i 's/#body-bg-color/#ebebeb/g' *.css
-sed -i 's/#nav-top-background-lighter/#333333/g' *.css
-sed -i 's/#nav-top-background-darker/#222222/g' *.css
-sed -i 's/#MSnav-top-background-lighter/#333333/g' *.css
-sed -i 's/#MSnav-top-background-darker/#222222/g' *.css
+sed -i 's/#body-bg-color/#f5f5f5/g' *.css
+sed -i 's/#nav-top-background-lighter/#272b35/g' *.css
+sed -i 's/#nav-top-background-darker/#272b35/g' *.css
 
-# Text and link color with dark orange
-sed -i 's/#text-general/#E55B00/g' *.css
+# Headline, icon and link color 
+sed -i 's/#text-general/#ea5244/g' *.css
 # background and border
-sed -i 's/#button-background-lighter/#FF6600/g' *.css
-sed -i 's/#button-background-darker/#E55B00/g' *.css
-sed -i 's/#border-verydark/#232f3e/g' *.css
+sed -i 's/#button-background-lighter/#10cfbd/g' *.css
+sed -i 's/#button-background-darker/#10cfbd/g' *.css
+sed -i 's/#border-verydark/#313B44/g' *.css
 # blue background with light blue
 sed -i 's/#button-alt-background/#146eb4/g' *.css
 
 # flat buttons
 # btn-default d4d4d4 f8f8f8 dfdfdf
 sed -i 's/#btn-default-border/#dfdfdf/g' *.css
-sed -i 's/#btn-default-light/#dfdfdf/g' *.css
-sed -i 's/#btn-default-dark/#dfdfdf/g' *.css
-sed -i 's/#MSbtn-default-light/#ffdfdfdf/g' *.css
-sed -i 's/#MSbtn-default-dark/#ffdfdfdf/g' *.css
+sed -i 's/#btn-default-light/#d4d4d4/g' *.css
+sed -i 's/#btn-default-dark/#d4d4d4/g' *.css
+sed -i 's/#MSbtn-default-light/#ffd4d4d4/g' *.css
+sed -i 's/#MSbtn-default-dark/#ffd4d4d4/g' *.css
 # btn-success 569a3c 79c05d 5fa842
 sed -i 's/#btn-success-border/#5fa842/g' *.css
 sed -i 's/#btn-success-light/#5fa842/g' *.css
@@ -67,9 +67,9 @@ sed -i 's/#MSbtn-info-dark/#ff5bc0de/g' *.css
 # button border radius
 sed -i 's/#btn-border-radius-px/0/g' *.css
 
-# Colours on book editor
-sed -i 's/#editor-tab-bg-color/#a1a1a1/g' *.css
-sed -i 's/#editor-formattingbar-bg-color/rgba(245,245,245,0.9)/g' *.css
+# Colours / backgrounds on book editor
+sed -i 's/#editor-tab-bg-color/#3B4752/g' *.css
+sed -i 's/#editor-formattingbar-bg-color/rgba(255,255,255,0.9)/g' *.css
 sed -i 's/#editor-formattingbar-border-bottom-color/#e0e0e0/g' *.css
 sed -i 's/#editor-formattingbar-border-bottom-px/1/g' *.css
 sed -i 's/#bookbar-bg-color/rgba(223,222,224,0.9)/g' *.css
