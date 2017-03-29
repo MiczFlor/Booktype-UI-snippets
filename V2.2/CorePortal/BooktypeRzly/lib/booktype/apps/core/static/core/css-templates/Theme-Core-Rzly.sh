@@ -24,7 +24,7 @@ sed -i 's/#nav-top-background-lighter/#272b35/g' *.css
 sed -i 's/#nav-top-background-darker/#272b35/g' *.css
 
 # Headline, icon and link color 
-sed -i 's/#text-general/#ea5244/g' *.css
+sed -i 's/#text-general/#10cfbd/g' *.css
 # background and border
 sed -i 's/#button-background-lighter/#10cfbd/g' *.css
 sed -i 's/#button-background-darker/#10cfbd/g' *.css

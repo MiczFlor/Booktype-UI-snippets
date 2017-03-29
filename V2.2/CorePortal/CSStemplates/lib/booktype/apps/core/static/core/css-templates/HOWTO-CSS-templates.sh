@@ -25,44 +25,71 @@ sed -i 's/#MSnav-top-background-darker/#222222/g' *.css
 
 # Text and link color with dark orange
 sed -i 's/#text-general/#E55B00/g' *.css
-# background and border
-sed -i 's/#button-background-lighter/#FF6600/g' *.css
-sed -i 's/#button-background-darker/#E55B00/g' *.css
-sed -i 's/#border-verydark/#232f3e/g' *.css
-# blue background with light blue
-sed -i 's/#button-alt-background/#146eb4/g' *.css
 
 # flat buttons
+
+# alternative button for 'info' etc.
+sed -i 's/#button-alt-background/#146eb4/g' *.css
+
+# btn-primary 232f3e FF6600 E55B00
+sed -i 's/#btn-primary-border/#E55B00/g' *.css
+sed -i 's/#btn-primary-light/#E55B00/g' *.css
+sed -i 's/#btn-primary-dark/#E55B00/g' *.css
+sed -i 's/#MSbtn-primary-light/#ffE55B00/g' *.css
+sed -i 's/#MSbtn-primary-dark/#ffE55B00/g' *.css
+sed -i 's/#btn-primary-hover/#FF6600/g' *.css
+sed -i 's/#btn-primary-active-bg/#E55B00/g' *.css
+sed -i 's/#btn-primary-active-col/#ffffff/g' *.css
+
 # btn-default d4d4d4 f8f8f8 dfdfdf
 sed -i 's/#btn-default-border/#dfdfdf/g' *.css
 sed -i 's/#btn-default-light/#dfdfdf/g' *.css
 sed -i 's/#btn-default-dark/#dfdfdf/g' *.css
 sed -i 's/#MSbtn-default-light/#ffdfdfdf/g' *.css
 sed -i 's/#MSbtn-default-dark/#ffdfdfdf/g' *.css
+sed -i 's/#btn-default-hover/#efefef/g' *.css
+sed -i 's/#btn-default-active-bg/#dddddd/g' *.css
+sed -i 's/#btn-default-active-col/#ffffff/g' *.css
+
 # btn-success 569a3c 79c05d 5fa842
 sed -i 's/#btn-success-border/#5fa842/g' *.css
 sed -i 's/#btn-success-light/#5fa842/g' *.css
 sed -i 's/#btn-success-dark/#5fa842/g' *.css
 sed -i 's/#MSbtn-success-light/#ff5fa842/g' *.css
 sed -i 's/#MSbtn-success-dark/#ff5fa842/g' *.css
+sed -i 's/#btn-success-hover/#79c05d/g' *.css
+sed -i 's/#btn-success-active-bg/#79c05d/g' *.css
+sed -i 's/#btn-success-active-col/#ffffff/g' *.css
+
 # btn-warning e38d13 f0ad4e ec971f
 sed -i 's/#btn-warning-border/#ec971f/g' *.css
 sed -i 's/#btn-warning-light/#ec971f/g' *.css
 sed -i 's/#btn-warning-dark/#ec971f/g' *.css
 sed -i 's/#MSbtn-warning-light/#ffec971f/g' *.css
 sed -i 's/#MSbtn-warning-dark/#ffec971f/g' *.css
+sed -i 's/#btn-warning-hover/#f0ad4e/g' *.css
+sed -i 's/#btn-warning-active-bg/#e38d13/g' *.css
+sed -i 's/#btn-warning-active-col/#ffffff/g' *.css
+
 # btn-danger b92c28  d9534f c9302c
-sed -i 's/#btn-warning-danger/#c9302c/g' *.css
+sed -i 's/#btn-danger-border/#c9302c/g' *.css
 sed -i 's/#btn-danger-light/#c9302c/g' *.css
 sed -i 's/#btn-danger-dark/#c9302c/g' *.css
 sed -i 's/#MSbtn-danger-light/#ffc9302c/g' *.css
 sed -i 's/#MSbtn-danger-dark/#ffc9302c/g' *.css
+sed -i 's/#btn-danger-hover/#d9534f/g' *.css
+sed -i 's/#btn-danger-active-bg/#c9302c/g' *.css
+sed -i 's/#btn-danger-active-col/#ffffff/g' *.css
+
 # btn-info 28a4c9 5bc0de 31b0d5
-sed -i 's/#btn-info-danger/#5bc0de/g' *.css
+sed -i 's/#btn-info-border/#5bc0de/g' *.css
 sed -i 's/#btn-info-light/#5bc0de/g' *.css
 sed -i 's/#btn-info-dark/#5bc0de/g' *.css
 sed -i 's/#MSbtn-info-light/#ff5bc0de/g' *.css
 sed -i 's/#MSbtn-info-dark/#ff5bc0de/g' *.css
+sed -i 's/#btn-info-hover/#31b0d5/g' *.css
+sed -i 's/#btn-info-active-bg/#5bc0de/g' *.css
+sed -i 's/#btn-info-active-col/#ffffff/g' *.css
 
 # button border radius
 sed -i 's/#btn-border-radius-px/0/g' *.css
