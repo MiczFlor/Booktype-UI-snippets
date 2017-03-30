@@ -17,14 +17,14 @@
 
 # Body general
 #
-sed -i 's/#body-bg-color/#ebebeb/g' *.css
-sed -i 's/#nav-top-background-lighter/#313B44/g' *.css
-sed -i 's/#nav-top-background-darker/#313B44/g' *.css
-sed -i 's/#MSnav-top-background-lighter/#ff313B44/g' *.css
-sed -i 's/#MSnav-top-background-darker/#ff313B44/g' *.css
+sed -i 's/#body-bg-color/#f0f0f0/g' *.css
+sed -i 's/#nav-top-background-lighter/#272b35/g' *.css
+sed -i 's/#nav-top-background-darker/#272b35/g' *.css
+sed -i 's/#MSnav-top-background-lighter/#ff272b35/g' *.css
+sed -i 's/#MSnav-top-background-darker/#ff272b354/g' *.css
 
 # Text and link color with dark orange
-sed -i 's/#text-general/#E55B00/g' *.css
+sed -i 's/#text-general/#6D5CAE/g' *.css
 
 # flat buttons
 
@@ -32,9 +32,9 @@ sed -i 's/#text-general/#E55B00/g' *.css
 sed -i 's/#button-alt-background/#48B0F7/g' *.css
 
 # btn-primary FF6600 FF6600 ff7519 e65c00
-sed -i 's/#btn-primary-border/#FF6600/g' *.css
-sed -i 's/#btn-primary-light/#FF6600/g' *.css
-sed -i 's/#btn-primary-dark/#FF6600/g' *.css
+sed -i 's/#btn-primary-border/#6D5CAE/g' *.css
+sed -i 's/#btn-primary-light/#6D5CAE/g' *.css
+sed -i 's/#btn-primary-dark/#6D5CAE/g' *.css
 sed -i 's/#MSbtn-primary-light/#ffFF6600/g' *.css
 sed -i 's/#MSbtn-primary-dark/#ffFF6600/g' *.css
 sed -i 's/#btn-primary-hover/#ff7519/g' *.css
@@ -48,8 +48,8 @@ sed -i 's/#btn-default-dark/#dfdfdf/g' *.css
 sed -i 's/#MSbtn-default-light/#ffdfdfdf/g' *.css
 sed -i 's/#MSbtn-default-dark/#ffdfdfdf/g' *.css
 sed -i 's/#btn-default-hover/#efefef/g' *.css
-sed -i 's/#btn-default-active-bg/#d0d0d0/g' *.css
-sed -i 's/#btn-default-active-col/#222222/g' *.css
+sed -i 's/#btn-default-active-bg/#d4d4d4/g' *.css
+sed -i 's/#btn-default-active-col/#ffffff/g' *.css
 
 # btn-success 10CFBD 10CFBD 40D9CA 0DAD9E
 sed -i 's/#btn-success-border/#10CFBD/g' *.css
@@ -96,12 +96,12 @@ sed -i 's/#btn-border-radius-px/0/g' *.css
 
 # Colours in book editor
 ## sliding bar on the left
-sed -i 's/#editor-tab-bg-color/#a1a1a1/g' *.css
+sed -i 's/#editor-tab-bg-color/#2b303b/g' *.css
 sed -i 's/#editor-tab-border-px/1/g' *.css
-sed -i 's/#editor-tab-border-col/#7c7c7c/g' *.css
+sed -i 's/#editor-tab-border-col/#2b303b/g' *.css
 sed -i 's/#editor-tab-icon-bg-col-def/transparent/g' *.css
-sed -i 's/#editor-tab-icon-bg-col-hover/#f5f5f5/g' *.css
-sed -i 's/#editor-tab-icon-bg-col-active/#f5f5f5/g' *.css
+sed -i 's/#editor-tab-icon-bg-col-hover/#f8d053/g' *.css
+sed -i 's/#editor-tab-icon-bg-col-active/#272b35/g' *.css
 
 ## above text editor icons and pulldown bar
 sed -i 's/#editor-formattingbar-bg-color/rgba(245,245,245,0.9)/g' *.css

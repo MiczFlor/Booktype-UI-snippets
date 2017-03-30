@@ -4,7 +4,7 @@ html {
 }
 body {
 	color:#333;
-	background:#f5f5f5;
+	background:#f0f0f0;
 	font-size:13px;
 	line-height:145%;
 	padding:0;
@@ -74,7 +74,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 h1 {
 	font-size:24px;
-	color:#ea5244
+	color:#6D5CAE
 }
 h2 {
 	font-size:21px
@@ -111,11 +111,11 @@ p.quote:before {
 	bottom:0
 }
 a {
-	color:#ea5244;
+	color:#6D5CAE;
 	text-decoration:none
 }
 a:focus,a:hover {
-	color:#ea5244;
+	color:#6D5CAE;
 	text-decoration:underline
 }
 .float-right {
@@ -151,11 +151,11 @@ a:focus,a:hover {
 }
 .content h2 {
 	font-size:1.5em;
-	color:#ea5244
+	color:#6D5CAE
 }
 .content h3 {
 	font-size:1.3em;
-	color:#ea5244;
+	color:#6D5CAE;
 	line-height:20px
 }
 .content.small-padding {
@@ -237,7 +237,8 @@ a:focus,a:hover {
 	border-right:1px solid #bfbfbf
 }
 .bookbar.flat .btn {
-	padding:9px 8px 10px 8px;
+	padding:8px 8px 8px 8px;
+	margin: 0;
 	border-radius:0
 }
 .bookbar.flat .btn-default {
@@ -297,7 +298,7 @@ a:focus,a:hover {
 	background-position:-40px -480px
 }
 .bookbar.flat .btn-primary {
-	background-color:#10cfbd;
+	background-color:#6D5CAE;
 	padding:29px 38px 30px 22px;
 	color:#fff;
 	text-transform:uppercase;
@@ -319,7 +320,7 @@ a:focus,a:hover {
 	margin:0 60px
 }
 .contentHeader {
-	background:rgba(255,255,255,0.9);
+	background:rgba(245,245,245,0.9);
 	height:55px;
 	border-bottom:1px solid #e0e0e0;
 	padding:8px 20px;
@@ -389,8 +390,8 @@ a:focus,a:hover {
 	display:block;
 	margin-top:4px;
 	float:left;
-	border-left:1px solid #333;
-	border-right:1px solid #222
+	border-left:0px solid #333;
+	border-right:0px solid #222
 }
 .collapse-navigation a {
 	padding:4px 6px;
@@ -541,7 +542,7 @@ a:focus,a:hover {
 	top:155px;
 	bottom:0;
 	z-index:20;
-	background:#3B4752;
+	background:#2b303b;
 	overflow:hidden;
 	-webkit-box-shadow:inset 8px 0 6px -8px rgba(0,0,0,0.8);
 	-moz-box-shadow:inset 8px 0 6px -8px rgba(0,0,0,0.8);
@@ -569,11 +570,12 @@ a:focus,a:hover {
 	padding:0;
 	margin-bottom:0;
 	margin-right:0;
-	border:1px solid #7c7c7c;
-	border-width:0 0 1px 0 !important
+	border:1px solid #2b303b;
+	border-width:0 0 1px 0 !important;
+	background-color: transparent;
 }
 .tablist .navigation-tabs li a:hover {
-	background-color:#f5f5f5
+	background-color:#f8d053;
 }
 .tablist .navigation-tabs li a i[class^="big-icon-"] {
 	margin:8px 0 0 5px
@@ -587,72 +589,84 @@ a:focus,a:hover {
 	padding:0 3px 1px 3px
 }
 .tablist .navigation-tabs li .big-icon-hold {
-	background-position:0 0
+	background-position: -40px 0
 }
 .tablist .navigation-tabs li .big-icon-history {
-	background-position:0 -45px
+	background-position: -40px -45px
 }
 .tablist .navigation-tabs li .big-icon-online-users {
-	background-position:0 -85px
+	background-position: -40px -85px
 }
 .tablist .navigation-tabs li .big-icon-chat {
-	background-position:0 -125px
+	background-position: -40px -125px
 }
 .tablist .navigation-tabs li .big-icon-chapters {
-	background-position:0 -165px
+	background-position: -40px -165px
 }
 .tablist .navigation-tabs li .big-icon-attachments {
-	background-position:0 -205px
+	background-position: -40px -205px
 }
 .tablist .navigation-tabs li .big-icon-track {
-	background-position:0 -525px
+	background-position: -40px -525px
 }
 .tablist .navigation-tabs li .big-icon-notes {
-	background-position:0 -245px
+	background-position: -40px -245px
 }
 .tablist .navigation-tabs li .big-icon-style {
-	background-position:0 -285px
+	background-position: -40px -285px
 }
 .tablist .navigation-tabs li .big-icon-comments {
-	background-position:0 -565px
+	background-position: -40px -565px
 }
 .tablist .navigation-tabs li.active a {
-	background-color:#f5f5f5
+	background-color:#272b35;
 }
 .tablist .navigation-tabs li.active a#hold-tab {
-	background-color:#fff5f5
+	background-color:#fff5f5;
+	background-color:#272b35;
 }
 .tablist .navigation-tabs li.active .label {
 	display:none
 }
-.tablist .navigation-tabs li.active .big-icon-hold,.tablist .navigation-tabs li.active a:hover .big-icon-hold {
+.tablist .navigation-tabs li.active .big-icon-hold,
+.tablist .navigation-tabs li.active a:hover .big-icon-hold {
 	background-position:-80px 0
 }
-.tablist .navigation-tabs li.active .big-icon-history,.tablist .navigation-tabs li.active a:hover .big-icon-history {
+.tablist .navigation-tabs li.active .big-icon-history,
+.tablist .navigation-tabs li.active a:hover .big-icon-history {
 	background-position:-80px -45px
 }
-.tablist .navigation-tabs li.active .big-icon-online-users,.tablist .navigation-tabs li.active a:hover .big-icon-online-users {
+.tablist .navigation-tabs li.active .big-icon-online-users,
+.tablist .navigation-tabs li.active a:hover .big-icon-online-users {
 	background-position:-80px -85px
 }
-.tablist .navigation-tabs li.active .big-icon-chat,.tablist .navigation-tabs li.active a:hover .big-icon-chat {
+.tablist .navigation-tabs li.active .big-icon-chat,
+.tablist .navigation-tabs li.active a:hover .big-icon-chat {
 	background-position:-80px -125px
 }
-.tablist .navigation-tabs li.active .big-icon-chapters,.tablist .navigation-tabs li.active a:hover .big-icon-chapters {
+.tablist .navigation-tabs li.active .big-icon-chapters,
+.tablist .navigation-tabs li.active a:hover .big-icon-chapters {
 	background-position:-80px -165px
 }
-.tablist .navigation-tabs li.active .big-icon-attachments,.tablist .navigation-tabs li.active a:hover .big-icon-attachments {
+.tablist .navigation-tabs li.active .big-icon-attachments,
+.tablist .navigation-tabs li.active a:hover .big-icon-attachments {
 	background-position:-80px -205px
 }
-.tablist .navigation-tabs li.active .big-icon-track,.tablist .navigation-tabs li.active a:hover .big-icon-track {
+.tablist .navigation-tabs li.active .big-icon-track,
+.tablist .navigation-tabs li.active a:hover .big-icon-track {
 	background-position:-80px -525px
 }
-.tablist .navigation-tabs li.active .big-icon-notes,.tablist .navigation-tabs li.active a:hover .big-icon-notes {
+.tablist .navigation-tabs li.active .big-icon-notes,
+.tablist .navigation-tabs li.active a:hover .big-icon-notes {
 	background-position:-80px -245px
 }
-.tablist .navigation-tabs li.active .big-icon-style,.tablist .navigation-tabs li.active a:hover .big-icon-style {
+.tablist .navigation-tabs li.active .big-icon-style,
+.tablist .navigation-tabs li.active a:hover .big-icon-style {
 	background-position:-80px -285px
 }
-.tablist .navigation-tabs li.active .big-icon-comments,.tablist .navigation-tabs li.active a:hover .big-icon-comments {
+.tablist .navigation-tabs li.active .big-icon-comments,
+.tablist .navigation-tabs li.active a:hover .big-icon-comments
+{
 	background-position:-80px -565px
 }
 .tabpane {
@@ -903,7 +917,7 @@ a:focus,a:hover {
 	-webkit-box-shadow:0 0 4px #ddd;
 	-moz-box-shadow:0 0 4px #ddd;
 	box-shadow:0 0 4px #ddd;
-	border:2px solid #ea5244 !important
+	border:2px solid #6D5CAE !important
 }
 .tabpane .tab-content.chat.typing-active .notification-list-box {
 	bottom:160px
@@ -1268,6 +1282,11 @@ li.mjs-nestedSortable-collapsed.mjs-nestedSortable-hovering div {
 .book-versions .all {
 	margin-top:30px
 }
+/* icons in table of content */
+a.edit-by,
+a.terminate-edit-chapter {
+    color: #ffffff;
+}
 .sortable li div .toc-chapter-detail {
 	display:none;
 	height:18px;
@@ -1296,7 +1315,7 @@ li.mjs-nestedSortable-collapsed.mjs-nestedSortable-hovering div {
 }
 .sortable li div .toc-chapter-detail .status {
 	float:right;
-	background:#146eb4
+	background:#48B0F7
 }
 
 .sortable li div .toc-chapter-detail .icons {
@@ -1597,7 +1616,7 @@ li.mjs-nestedSortable-collapsed.mjs-nestedSortable-hovering div {
 	box-shadow:0 0 3px #a0a0a0
 }
 .uploads-grid li.active {
-	background:#10cfbd;
+	background:#6D5CAE;
 	border-color:#55398a;
 	cursor:pointer;
 	-webkit-box-shadow:0 0 3px #a0a0a0;
@@ -1745,7 +1764,7 @@ li.mjs-nestedSortable-collapsed.mjs-nestedSortable-hovering div {
 	margin:0 320px 0 0
 }
 .image-dropdown-button {
-	background-color:#10cfbd;
+	background-color:#6D5CAE;
 	border-style:solid;
 	border-color:#fff;
 	border-width:2px 2px 0 0;
@@ -2676,7 +2695,7 @@ h2 .btn-toolbar+.view_all {
 	right:100px
 }
 .profile-box {
-	background-color:#10cfbd;
+	background-color:#6D5CAE;
 	min-height:242px !important
 }
 .profile-box h2 {
@@ -2734,7 +2753,7 @@ dd input,dt input,dd textarea,dt textarea {
 	background-color:#fff !important
 }
 .box.purple {
-	background-color:#10cfbd !important
+	background-color:#6D5CAE !important
 }
 .box.black {
 	background-color:#464646 !important
@@ -2798,7 +2817,7 @@ dd input,dt input,dd textarea,dt textarea {
 	clear:both
 }
 .status {
-	background:#146eb4;
+	background:#48B0F7;
 	padding:0 6px 1px 6px;
 	margin:0 5px;
 	-webkit-border-radius:2px;
@@ -2808,7 +2827,7 @@ dd input,dt input,dd textarea,dt textarea {
 .draft-stat {
 	color:#fff;
 	font-size:18px;
-	background:#146eb4;
+	background:#48B0F7;
 	padding:2px 10px 2px 10px;
 	margin:0 15px 0 0;
 	-webkit-border-radius:2px;
@@ -3023,7 +3042,7 @@ span.draft-stat:hover {
 }
 .selected-chapter {
 	background-color:#f5f5f5;
-	border-left:4px solid #ea5244
+	border-left:4px solid #6D5CAE
 }
 .table_of_contents {
 	height:100%;
@@ -3157,10 +3176,10 @@ textarea.form-control {
 	border-left:4px solid transparent
 }
 #settings.nav-tabs>li.active>a,#settings.nav-tabs>li.active>a:hover,#settings.nav-tabs>li.active>a:focus {
-	color:#ea5244;
+	color:#6D5CAE;
 	font-weight:800;
 	border:none;
-	border-left:4px solid #ea5244;
+	border-left:4px solid #6D5CAE;
 	border-bottom-color:transparent;
 	border-radius:0
 }
@@ -3218,7 +3237,7 @@ textarea.form-control {
 	font-weight:bold
 }
 .wizard>.steps .current a .number {
-	background:#10cfbd;
+	background:#6D5CAE;
 	color:#fff;
 	height:45px
 }
@@ -3249,7 +3268,7 @@ textarea.form-control {
 	cursor:default
 }
 .wizard>.steps .current a,.wizard>.steps .current a:hover,.wizard>.steps .current a:active {
-	color:#10cfbd;
+	color:#6D5CAE;
 	cursor:default;
 	font-weight:bold
 }
@@ -3586,7 +3605,7 @@ textarea.form-control {
 	font-family:Arial,sans-serif;
 	font-style:italic;
 	line-height:20px;
-	background:#10cfbd;
+	background:#6D5CAE;
 	padding:15px 20px;
 	color:#fff;
 	margin:-20px -20px 20px -20px
@@ -3861,11 +3880,11 @@ footer {
 	line-height:140%
 }
 .publish_history .export-item .export-name:hover {
-	border-bottom:1px dotted #10cfbd;
+	border-bottom:1px dotted #6D5CAE;
 	margin-bottom:3px
 }
 .publish_history .export-item .export-name:focus {
-	border-bottom:1px dotted #10cfbd;
+	border-bottom:1px dotted #6D5CAE;
 	margin-bottom:3px;
 	outline:0
 }

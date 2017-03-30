@@ -298,7 +298,7 @@ a:focus,a:hover {
 	background-position:-40px -480px
 }
 .bookbar.flat .btn-primary {
-	background-color:#button-background-lighter;
+	background-color:#btn-primary-light;
 	padding:29px 38px 30px 22px;
 	color:#fff;
 	text-transform:uppercase;
@@ -390,8 +390,8 @@ a:focus,a:hover {
 	display:block;
 	margin-top:4px;
 	float:left;
-	border-left:1px solid #333;
-	border-right:1px solid #222
+	border-left:0px solid #333;
+	border-right:0px solid #222
 }
 .collapse-navigation a {
 	padding:4px 6px;
@@ -570,11 +570,12 @@ a:focus,a:hover {
 	padding:0;
 	margin-bottom:0;
 	margin-right:0;
-	border:1px solid #7c7c7c;
-	border-width:0 0 1px 0 !important
+	border:#editor-tab-border-pxpx solid #editor-tab-border-col;
+	border-width:0 0 1px 0 !important;
+	background-color: #editor-tab-icon-bg-col-def;
 }
 .tablist .navigation-tabs li a:hover {
-	background-color:#f5f5f5
+	background-color:#editor-tab-icon-bg-col-hover;
 }
 .tablist .navigation-tabs li a i[class^="big-icon-"] {
 	margin:8px 0 0 5px
@@ -588,72 +589,84 @@ a:focus,a:hover {
 	padding:0 3px 1px 3px
 }
 .tablist .navigation-tabs li .big-icon-hold {
-	background-position:0 0
+	background-position: -40px 0
 }
 .tablist .navigation-tabs li .big-icon-history {
-	background-position:0 -45px
+	background-position: -40px -45px
 }
 .tablist .navigation-tabs li .big-icon-online-users {
-	background-position:0 -85px
+	background-position: -40px -85px
 }
 .tablist .navigation-tabs li .big-icon-chat {
-	background-position:0 -125px
+	background-position: -40px -125px
 }
 .tablist .navigation-tabs li .big-icon-chapters {
-	background-position:0 -165px
+	background-position: -40px -165px
 }
 .tablist .navigation-tabs li .big-icon-attachments {
-	background-position:0 -205px
+	background-position: -40px -205px
 }
 .tablist .navigation-tabs li .big-icon-track {
-	background-position:0 -525px
+	background-position: -40px -525px
 }
 .tablist .navigation-tabs li .big-icon-notes {
-	background-position:0 -245px
+	background-position: -40px -245px
 }
 .tablist .navigation-tabs li .big-icon-style {
-	background-position:0 -285px
+	background-position: -40px -285px
 }
 .tablist .navigation-tabs li .big-icon-comments {
-	background-position:0 -565px
+	background-position: -40px -565px
 }
 .tablist .navigation-tabs li.active a {
-	background-color:#f5f5f5
+	background-color:#editor-tab-icon-bg-col-active;
 }
 .tablist .navigation-tabs li.active a#hold-tab {
-	background-color:#fff5f5
+	background-color:#fff5f5;
+	background-color:#editor-tab-icon-bg-col-active;
 }
 .tablist .navigation-tabs li.active .label {
 	display:none
 }
-.tablist .navigation-tabs li.active .big-icon-hold,.tablist .navigation-tabs li.active a:hover .big-icon-hold {
+.tablist .navigation-tabs li.active .big-icon-hold,
+.tablist .navigation-tabs li.active a:hover .big-icon-hold {
 	background-position:-80px 0
 }
-.tablist .navigation-tabs li.active .big-icon-history,.tablist .navigation-tabs li.active a:hover .big-icon-history {
+.tablist .navigation-tabs li.active .big-icon-history,
+.tablist .navigation-tabs li.active a:hover .big-icon-history {
 	background-position:-80px -45px
 }
-.tablist .navigation-tabs li.active .big-icon-online-users,.tablist .navigation-tabs li.active a:hover .big-icon-online-users {
+.tablist .navigation-tabs li.active .big-icon-online-users,
+.tablist .navigation-tabs li.active a:hover .big-icon-online-users {
 	background-position:-80px -85px
 }
-.tablist .navigation-tabs li.active .big-icon-chat,.tablist .navigation-tabs li.active a:hover .big-icon-chat {
+.tablist .navigation-tabs li.active .big-icon-chat,
+.tablist .navigation-tabs li.active a:hover .big-icon-chat {
 	background-position:-80px -125px
 }
-.tablist .navigation-tabs li.active .big-icon-chapters,.tablist .navigation-tabs li.active a:hover .big-icon-chapters {
+.tablist .navigation-tabs li.active .big-icon-chapters,
+.tablist .navigation-tabs li.active a:hover .big-icon-chapters {
 	background-position:-80px -165px
 }
-.tablist .navigation-tabs li.active .big-icon-attachments,.tablist .navigation-tabs li.active a:hover .big-icon-attachments {
+.tablist .navigation-tabs li.active .big-icon-attachments,
+.tablist .navigation-tabs li.active a:hover .big-icon-attachments {
 	background-position:-80px -205px
 }
-.tablist .navigation-tabs li.active .big-icon-track,.tablist .navigation-tabs li.active a:hover .big-icon-track {
+.tablist .navigation-tabs li.active .big-icon-track,
+.tablist .navigation-tabs li.active a:hover .big-icon-track {
 	background-position:-80px -525px
 }
-.tablist .navigation-tabs li.active .big-icon-notes,.tablist .navigation-tabs li.active a:hover .big-icon-notes {
+.tablist .navigation-tabs li.active .big-icon-notes,
+.tablist .navigation-tabs li.active a:hover .big-icon-notes {
 	background-position:-80px -245px
 }
-.tablist .navigation-tabs li.active .big-icon-style,.tablist .navigation-tabs li.active a:hover .big-icon-style {
+.tablist .navigation-tabs li.active .big-icon-style,
+.tablist .navigation-tabs li.active a:hover .big-icon-style {
 	background-position:-80px -285px
 }
-.tablist .navigation-tabs li.active .big-icon-comments,.tablist .navigation-tabs li.active a:hover .big-icon-comments {
+.tablist .navigation-tabs li.active .big-icon-comments,
+.tablist .navigation-tabs li.active a:hover .big-icon-comments
+{
 	background-position:-80px -565px
 }
 .tabpane {
@@ -1269,6 +1282,11 @@ li.mjs-nestedSortable-collapsed.mjs-nestedSortable-hovering div {
 .book-versions .all {
 	margin-top:30px
 }
+/* icons in table of content */
+a.edit-by,
+a.terminate-edit-chapter {
+    color: #ffffff;
+}
 .sortable li div .toc-chapter-detail {
 	display:none;
 	height:18px;
@@ -1598,7 +1616,7 @@ li.mjs-nestedSortable-collapsed.mjs-nestedSortable-hovering div {
 	box-shadow:0 0 3px #a0a0a0
 }
 .uploads-grid li.active {
-	background:#button-background-lighter;
+	background:#btn-primary-light;
 	border-color:#55398a;
 	cursor:pointer;
 	-webkit-box-shadow:0 0 3px #a0a0a0;
@@ -1746,7 +1764,7 @@ li.mjs-nestedSortable-collapsed.mjs-nestedSortable-hovering div {
 	margin:0 320px 0 0
 }
 .image-dropdown-button {
-	background-color:#button-background-lighter;
+	background-color:#btn-primary-light;
 	border-style:solid;
 	border-color:#fff;
 	border-width:2px 2px 0 0;
@@ -2677,7 +2695,7 @@ h2 .btn-toolbar+.view_all {
 	right:100px
 }
 .profile-box {
-	background-color:#button-background-lighter;
+	background-color:#btn-primary-light;
 	min-height:242px !important
 }
 .profile-box h2 {
@@ -2735,7 +2753,7 @@ dd input,dt input,dd textarea,dt textarea {
 	background-color:#fff !important
 }
 .box.purple {
-	background-color:#button-background-lighter !important
+	background-color:#btn-primary-light !important
 }
 .box.black {
 	background-color:#464646 !important
@@ -3219,7 +3237,7 @@ textarea.form-control {
 	font-weight:bold
 }
 .wizard>.steps .current a .number {
-	background:#button-background-lighter;
+	background:#btn-primary-light;
 	color:#fff;
 	height:45px
 }
@@ -3250,7 +3268,7 @@ textarea.form-control {
 	cursor:default
 }
 .wizard>.steps .current a,.wizard>.steps .current a:hover,.wizard>.steps .current a:active {
-	color:#button-background-lighter;
+	color:#btn-primary-light;
 	cursor:default;
 	font-weight:bold
 }
@@ -3587,7 +3605,7 @@ textarea.form-control {
 	font-family:Arial,sans-serif;
 	font-style:italic;
 	line-height:20px;
-	background:#button-background-lighter;
+	background:#btn-primary-light;
 	padding:15px 20px;
 	color:#fff;
 	margin:-20px -20px 20px -20px
@@ -3862,11 +3880,11 @@ footer {
 	line-height:140%
 }
 .publish_history .export-item .export-name:hover {
-	border-bottom:1px dotted #button-background-lighter;
+	border-bottom:1px dotted #btn-primary-light;
 	margin-bottom:3px
 }
 .publish_history .export-item .export-name:focus {
-	border-bottom:1px dotted #button-background-lighter;
+	border-bottom:1px dotted #btn-primary-light;
 	margin-bottom:3px;
 	outline:0
 }

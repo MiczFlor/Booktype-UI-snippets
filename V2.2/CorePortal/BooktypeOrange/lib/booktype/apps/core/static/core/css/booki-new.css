@@ -165,13 +165,13 @@ a:focus,a:hover {
 	padding-top:9px
 }
 .navigation-bar {
-	background:#333333;
-	background:-moz-linear-gradient(top, #333333 0, #222222 100%);
-	background:-webkit-gradient(linear, left top, left bottom, color-stop(0, #333333), color-stop(100%, #222222));
-	background:-webkit-linear-gradient(top, #333333 0, #222222 100%);
-	background:-o-linear-gradient(top, #333333 0, #222222 100%);
-	background:-ms-linear-gradient(top, #333333 0, #222222 100%);
-	background:linear-gradient(to bottom, #333333 0, #222222 100%);
+	background:#313B44;
+	background:-moz-linear-gradient(top, #313B44 0, #313B44 100%);
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0, #313B44), color-stop(100%, #313B44));
+	background:-webkit-linear-gradient(top, #313B44 0, #313B44 100%);
+	background:-o-linear-gradient(top, #313B44 0, #313B44 100%);
+	background:-ms-linear-gradient(top, #313B44 0, #313B44 100%);
+	background:linear-gradient(to bottom, #313B44 0, #313B44 100%);
 	color:#ebebeb;
 	height:40px;
 	padding:0 20px 0 0;
@@ -298,7 +298,7 @@ a:focus,a:hover {
 	background-position:-40px -480px
 }
 .bookbar.flat .btn-primary {
-	background-color:#E55B00;
+	background-color:#FF6600;
 	padding:29px 38px 30px 22px;
 	color:#fff;
 	text-transform:uppercase;
@@ -1297,7 +1297,7 @@ li.mjs-nestedSortable-collapsed.mjs-nestedSortable-hovering div {
 }
 .sortable li div .toc-chapter-detail .status {
 	float:right;
-	background:#146eb4
+	background:#48B0F7
 }
 
 .sortable li div .toc-chapter-detail .icons {
@@ -1598,7 +1598,7 @@ li.mjs-nestedSortable-collapsed.mjs-nestedSortable-hovering div {
 	box-shadow:0 0 3px #a0a0a0
 }
 .uploads-grid li.active {
-	background:#E55B00;
+	background:#FF6600;
 	border-color:#55398a;
 	cursor:pointer;
 	-webkit-box-shadow:0 0 3px #a0a0a0;
@@ -1746,7 +1746,7 @@ li.mjs-nestedSortable-collapsed.mjs-nestedSortable-hovering div {
 	margin:0 320px 0 0
 }
 .image-dropdown-button {
-	background-color:#E55B00;
+	background-color:#FF6600;
 	border-style:solid;
 	border-color:#fff;
 	border-width:2px 2px 0 0;
@@ -2677,7 +2677,7 @@ h2 .btn-toolbar+.view_all {
 	right:100px
 }
 .profile-box {
-	background-color:#E55B00;
+	background-color:#FF6600;
 	min-height:242px !important
 }
 .profile-box h2 {
@@ -2735,7 +2735,7 @@ dd input,dt input,dd textarea,dt textarea {
 	background-color:#fff !important
 }
 .box.purple {
-	background-color:#E55B00 !important
+	background-color:#FF6600 !important
 }
 .box.black {
 	background-color:#464646 !important
@@ -2799,7 +2799,7 @@ dd input,dt input,dd textarea,dt textarea {
 	clear:both
 }
 .status {
-	background:#146eb4;
+	background:#48B0F7;
 	padding:0 6px 1px 6px;
 	margin:0 5px;
 	-webkit-border-radius:2px;
@@ -2809,7 +2809,7 @@ dd input,dt input,dd textarea,dt textarea {
 .draft-stat {
 	color:#fff;
 	font-size:18px;
-	background:#146eb4;
+	background:#48B0F7;
 	padding:2px 10px 2px 10px;
 	margin:0 15px 0 0;
 	-webkit-border-radius:2px;
@@ -3219,7 +3219,7 @@ textarea.form-control {
 	font-weight:bold
 }
 .wizard>.steps .current a .number {
-	background:#E55B00;
+	background:#FF6600;
 	color:#fff;
 	height:45px
 }
@@ -3250,7 +3250,7 @@ textarea.form-control {
 	cursor:default
 }
 .wizard>.steps .current a,.wizard>.steps .current a:hover,.wizard>.steps .current a:active {
-	color:#E55B00;
+	color:#FF6600;
 	cursor:default;
 	font-weight:bold
 }
@@ -3587,7 +3587,7 @@ textarea.form-control {
 	font-family:Arial,sans-serif;
 	font-style:italic;
 	line-height:20px;
-	background:#E55B00;
+	background:#FF6600;
 	padding:15px 20px;
 	color:#fff;
 	margin:-20px -20px 20px -20px
@@ -3862,11 +3862,11 @@ footer {
 	line-height:140%
 }
 .publish_history .export-item .export-name:hover {
-	border-bottom:1px dotted #E55B00;
+	border-bottom:1px dotted #FF6600;
 	margin-bottom:3px
 }
 .publish_history .export-item .export-name:focus {
-	border-bottom:1px dotted #E55B00;
+	border-bottom:1px dotted #FF6600;
 	margin-bottom:3px;
 	outline:0
 }
