@@ -622,7 +622,6 @@ a:focus,a:hover {
 	background-color:#editor-tab-icon-bg-col-active;
 }
 .tablist .navigation-tabs li.active a#hold-tab {
-	background-color:#fff5f5;
 	background-color:#editor-tab-icon-bg-col-active;
 }
 .tablist .navigation-tabs li.active .label {
