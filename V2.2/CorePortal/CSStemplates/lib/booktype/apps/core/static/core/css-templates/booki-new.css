@@ -264,38 +264,86 @@ a:focus,a:hover {
 	background-position:0 0;
 	background-repeat:no-repeat
 }
-.bookbar.flat .btn-default .bk-icon-toc {
-	background-position:0 -320px
-}
-.bookbar.flat .btn-default .bk-icon-media {
-	background-position:0 -360px
-}
-.bookbar.flat .btn-default .bk-icon-cover {
-	background-position:0 -400px
-}
-.bookbar.flat .btn-default .bk-icon-history {
-	background-position:0 -440px
-}
-.bookbar.flat .btn-default .bk-icon-settings {
-	background-position:0 -480px
-}
 .bookbar.flat .btn-default.active+.btn-default {
 	border-left:1px solid #7d7d7d !important
+}
+.bookbar.flat .btn-default .bk-icon-toc {
+	background-position:0 -320px
 }
 .bookbar.flat .btn-default.active .bk-icon-toc {
 	background-position:-40px -320px
 }
+.bookbar.flat .btn-default .bk-icon-media {
+	background-position:0 -360px
+}
 .bookbar.flat .btn-default.active .bk-icon-media {
 	background-position:-40px -360px
+}
+.bookbar.flat .btn-default .bk-icon-cover {
+	background-position:0 -400px
 }
 .bookbar.flat .btn-default.active .bk-icon-cover {
 	background-position:-40px -400px
 }
+.bookbar.flat .btn-default .bk-icon-history {
+	background-position:0 -440px
+}
 .bookbar.flat .btn-default.active .bk-icon-history {
 	background-position:-40px -440px
 }
+.bookbar.flat .btn-default .bk-icon-settings {
+	background-position:0 -480px
+}
 .bookbar.flat .btn-default.active .bk-icon-settings {
 	background-position:-40px -480px
+}
+.bookbar.flat .btn-default .bk-icon-home {
+	background-position:0 -600px
+}
+.bookbar.flat .btn-default.active .bk-icon-home {
+	background-position:-40px -600px
+}
+.bookbar.flat .btn-default .bk-icon-enter {
+	background-position:0 -640px
+}
+.bookbar.flat .btn-default.active .bk-icon-enter {
+	background-position:-40px -640px
+}
+.bookbar.flat .btn-default .bk-icon-exit {
+	background-position:0 -680px
+}
+.bookbar.flat .btn-default.active .bk-icon-exit {
+	background-position:-40px -680px
+}
+.bookbar.flat .btn-default .bk-icon-print {
+	background-position:0 -720px
+}
+.bookbar.flat .btn-default.active .bk-icon-print {
+	background-position:-40px -720px
+}
+.bookbar.flat .btn-default .bk-icon-word {
+	background-position:0 -760px
+}
+.bookbar.flat .btn-default.active .bk-icon-word {
+	background-position:-40px -760px
+}
+.bookbar.flat .btn-default .bk-icon-pdf {
+	background-position:0 -800px
+}
+.bookbar.flat .btn-default.active .bk-icon-pdf {
+	background-position:-40px -800px
+}
+.bookbar.flat .btn-default .bk-icon-upload {
+	background-position:0 -840px
+}
+.bookbar.flat .btn-default.active .bk-icon-upload {
+	background-position:-40px -840px
+}
+.bookbar.flat .btn-default .bk-icon-download {
+	background-position:0 -880px
+}
+.bookbar.flat .btn-default.active .bk-icon-download {
+	background-position:-40px -880px
 }
 .bookbar.flat .btn-primary {
 	background-color:#btn-primary-light;
@@ -589,34 +637,64 @@ a:focus,a:hover {
 	padding:0 3px 1px 3px
 }
 .tablist .navigation-tabs li .big-icon-hold {
-	background-position:0 0
+	background-position:#navigation-tabs-default-pos-pxpx -5px
+}
+.tablist .navigation-tabs li.active .big-icon-hold,.tablist .navigation-tabs li.active a:hover .big-icon-hold {
+	background-position:-80px -5px
 }
 .tablist .navigation-tabs li .big-icon-history {
-	background-position:0 -45px
+	background-position:#navigation-tabs-default-pos-pxpx -45px
+}
+.tablist .navigation-tabs li.active .big-icon-history,.tablist .navigation-tabs li.active a:hover .big-icon-history {
+	background-position:-80px -45px
 }
 .tablist .navigation-tabs li .big-icon-online-users {
-	background-position:0 -85px
+	background-position:#navigation-tabs-default-pos-pxpx -85px
+}
+.tablist .navigation-tabs li.active .big-icon-online-users,.tablist .navigation-tabs li.active a:hover .big-icon-online-users {
+	background-position:-80px -85px
 }
 .tablist .navigation-tabs li .big-icon-chat {
-	background-position:0 -125px
+	background-position:#navigation-tabs-default-pos-pxpx -125px
+}
+.tablist .navigation-tabs li.active .big-icon-chat,.tablist .navigation-tabs li.active a:hover .big-icon-chat {
+	background-position:-80px -125px
 }
 .tablist .navigation-tabs li .big-icon-chapters {
-	background-position:0 -165px
+	background-position:#navigation-tabs-default-pos-pxpx -165px
+}
+.tablist .navigation-tabs li.active .big-icon-chapters,.tablist .navigation-tabs li.active a:hover .big-icon-chapters {
+	background-position:-80px -165px
 }
 .tablist .navigation-tabs li .big-icon-attachments {
-	background-position:0 -205px
+	background-position:#navigation-tabs-default-pos-pxpx -205px
+}
+.tablist .navigation-tabs li.active .big-icon-attachments,.tablist .navigation-tabs li.active a:hover .big-icon-attachments {
+	background-position:-80px -205px
 }
 .tablist .navigation-tabs li .big-icon-track {
-	background-position:0 -525px
+	background-position:#navigation-tabs-default-pos-pxpx -525px
+}
+.tablist .navigation-tabs li.active .big-icon-track,.tablist .navigation-tabs li.active a:hover .big-icon-track {
+	background-position:-80px -525px
 }
 .tablist .navigation-tabs li .big-icon-notes {
-	background-position:0 -245px
+	background-position:#navigation-tabs-default-pos-pxpx -245px
+}
+.tablist .navigation-tabs li.active .big-icon-notes,.tablist .navigation-tabs li.active a:hover .big-icon-notes {
+	background-position:-80px -245px
 }
 .tablist .navigation-tabs li .big-icon-style {
-	background-position:0 -285px
+	background-position:#navigation-tabs-default-pos-pxpx -285px
+}
+.tablist .navigation-tabs li.active .big-icon-style,.tablist .navigation-tabs li.active a:hover .big-icon-style {
+	background-position:-80px -285px
 }
 .tablist .navigation-tabs li .big-icon-comments {
-	background-position:0 -565px
+	background-position:#navigation-tabs-default-pos-pxpx -565px
+}
+.tablist .navigation-tabs li.active .big-icon-comments,.tablist .navigation-tabs li.active a:hover .big-icon-comments {
+	background-position:-80px -565px
 }
 .tablist .navigation-tabs li.active a {
 	background-color:#editor-tab-icon-bg-col-active;
@@ -626,36 +704,6 @@ a:focus,a:hover {
 }
 .tablist .navigation-tabs li.active .label {
 	display:none
-}
-.tablist .navigation-tabs li.active .big-icon-hold,.tablist .navigation-tabs li.active a:hover .big-icon-hold {
-	background-position:-80px 0
-}
-.tablist .navigation-tabs li.active .big-icon-history,.tablist .navigation-tabs li.active a:hover .big-icon-history {
-	background-position:-80px -45px
-}
-.tablist .navigation-tabs li.active .big-icon-online-users,.tablist .navigation-tabs li.active a:hover .big-icon-online-users {
-	background-position:-80px -85px
-}
-.tablist .navigation-tabs li.active .big-icon-chat,.tablist .navigation-tabs li.active a:hover .big-icon-chat {
-	background-position:-80px -125px
-}
-.tablist .navigation-tabs li.active .big-icon-chapters,.tablist .navigation-tabs li.active a:hover .big-icon-chapters {
-	background-position:-80px -165px
-}
-.tablist .navigation-tabs li.active .big-icon-attachments,.tablist .navigation-tabs li.active a:hover .big-icon-attachments {
-	background-position:-80px -205px
-}
-.tablist .navigation-tabs li.active .big-icon-track,.tablist .navigation-tabs li.active a:hover .big-icon-track {
-	background-position:-80px -525px
-}
-.tablist .navigation-tabs li.active .big-icon-notes,.tablist .navigation-tabs li.active a:hover .big-icon-notes {
-	background-position:-80px -245px
-}
-.tablist .navigation-tabs li.active .big-icon-style,.tablist .navigation-tabs li.active a:hover .big-icon-style {
-	background-position:-80px -285px
-}
-.tablist .navigation-tabs li.active .big-icon-comments,.tablist .navigation-tabs li.active a:hover .big-icon-comments {
-	background-position:-80px -565px
 }
 .tabpane {
 	position:fixed;

@@ -111,3 +111,6 @@ sed -i 's/#editor-formattingbar-border-bottom-px/1/g' *.css
 sed -i 's/#bookbar-bg-color/rgba(223,222,224,0.9)/g' *.css
 sed -i 's/#bookbar-border-bottom-color/#bfbfbf/g' *.css
 sed -i 's/#bookbar-border-bottom-px/1/g' *.css
+
+# editor icon positions sliding bar left
+sed -i 's/#navigation-tabs-default-pos-px/-40/g' *.css
